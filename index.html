@@ -45,6 +45,22 @@
     }
   </style>
 
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js" async></script>
+
 </head>
 
 <body>
@@ -57,18 +73,15 @@
 
       <div class="logo float-left">
 
-        <!-- <h1 class="text-light"><a href="#header"><span>Pingfest</span></a></h1> -->
-        <a href="#intro" class="scrollto"><img src="img/images/P!NG.png" alt="" class="img-fluid"></a>
+        <a href="./" aria-label="Beranda"><img src="img/images/P!NG.png" alt="Beranda" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <!-- <li class="active"><a href="/index.html">Beranda</a></li> -->
-          <li class="active"><a href="pingfest2k19/index.html">Beranda</a></li>
-          <!-- <li><a href="/itv.html">IT&#8288;-&#8288;Venture</a></li> -->
-          <li><a href="pingfest2k19/itv.html">IT&#8288;-&#8288;Venture</a></li>
+          <li class="active"><a href="index.html">Beranda</a></li>
+          <li><a href="itv.html" aria-label="IT Venture">IT&#8288;-&#8288;Venture</a></li>
           <li><a href="#">Seminar Nasional</a></li>
-          <li><a href="#">IT&#8288;-&#8288;Workshop</a></li>
+          <li><a href="#" aria-label="IT Workshop">IT&#8288;-&#8288;Workshop</a></li>
 
           <!-- KALO MAU DIBUAT DROPDOWN -->
 
@@ -107,11 +120,10 @@
       </div>
 
       <div class="intro-info">
-        <h2>Bersiap<br>untuk<br>P!NGFEST 2019!</h2>
+        <h2>Ayo ikuti<br>festival teknologi<br>P!NGFEST 2019!</h2>
         <div>
-          <!--<a href="https://drive.google.com/open?id=1Xm7WCoToUP6rCQ_lrh0W2S74I_iKj-av" class="btn-get-started scrollto">Buku Panduan</a>-->
-          <a href="/itv.html" class="btn-get-started scrollto">IT-Venture 2019</a>
-          <a href="https://pingfest.id" class="btn-services scrollto">Daftar Sekarang &#8594;</a>
+          <a href="itv.html" class="btn-get-started" aria-label="IT Venture 12">IT-Venture XII</a>
+          <a href="https://pingfest.id" class="btn-services">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -151,9 +163,9 @@
               <div class="card wow bounceInUp">
                   <i> <img src="img/images/it-v only.png" alt="itv" height="100" width="100" > </i>
                 <div class="card-body">
-                  <h5 class="card-title">IT&#8288;-&#8288;Venture</h5>
+                  <h5 class="card-title">IT&#8288;-&#8288;Venture XII</h5>
                   <p class="card-text">IT&#8288;-&#8288;Venture adalah suatu perlombaan untuk kalangan pelajar SMA, SMK, atau sederajat se-Indonesia. Tema "Penjelajah Teknologi Masa Depan" yang diusung mengajak para peserta lomba untuk siap dalam menjelajahi teknologi yang akan datang.</p>
-                  <a href="#" class="readmore">Selengkapnya</a>
+                  <a href="itv.html" class="readmore">Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -164,8 +176,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Creativation Talk</h5>
                   <p class="card-text">Seminar Nasional: Creativation Talk adalah suatu seminar seputar hal kekinian dalam era digital. Tema "Unbox That Craziest Thought" yang diusung mengajak para peserta seminar untuk berani mengeluarkan ide-ide "gila" sehingga menghasilkan sesuatu yang baru.</p>
-                  <!-- <a href="#" class="readmore">Coming Soon</a> -->
-                  <b>Coming Soon</b>
+                  <!-- <a href="#" class="readmore">Selengkapnya</a> -->
+                  <b>Segera Hadir</b>
                 </div>
               </div>
             </div>
@@ -176,8 +188,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Dig&#8288;-&#8288;Up</h5>
                   <p class="card-text">IT&#8288;-&#8288;Workshop: Dig&#8288;-&#8288;Up adalah lokakarya (<span style="font-style:italic;">workshop</span>) yang menjadi media untuk mendapat wawasan tentang materi yang akan disampaikan oleh pengajar yang ahli di bidangnya. Tema "Turn into Your Own Crescent" yang diusung mengajak para peserta untuk merealisasikan mimpi masing-masing.</p>
-                  <!-- <a href="#" class="readmore">Coming Soon</a> -->
-                  <b>Coming Soon</b>
+                  <!-- <a href="#" class="readmore">Selengkapnya</a> -->
+                  <b>Segera Hadir</b>
                 </div>
               </div>
             </div>
@@ -185,78 +197,6 @@
           </div>
         </div>
       </section>
-
-      <!-- ==========================
-      Materi
-    ============================-->
-    <!-- <section id="services" class="section-bg">
-        <div class="container">
-  
-          <header class="section-header">
-            <h3>Materi IT&#8288;-&#8288;Venture</h3>
-            <p>Berikut ini adalah materi IT&#8288;-&#8288;Venture.</p>
-          </header>
-  
-          <div class="row">
-  
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-              <div class="box">
-                <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
-                <h4 class="title">Matematika Komputasi dan Logika</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.05s" data-wow-duration="1.4s">
-              <div class="box">
-				<div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
-                <h4 class="title">Pemrograman Web</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-              <div class="box">
-                <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-                <h4 class="title">Basis Data (SQL)</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.15s" data-wow-duration="1.4s">
-              <div class="box">
-                <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
-                <h4 class="title">Jaringan Komputer</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-              <div class="box">
-                <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
-                <h4 class="title">Pemrograman Dasar</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.25s" data-wow-duration="1.4s">
-              <div class="box">
-                <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-                <h4 class="title">Perangkat Keras</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.3s" data-wow-duration="1.4s">
-              <div class="box">
-                <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-                <h4 class="title">Sistem Digital</h4>
-                <p class="description"></p>
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </section>#materi -->
-
 
         <!--==========================
       Dokumentasi
@@ -271,9 +211,9 @@
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-itv">ITV</li>
-              <li data-filter=".filter-semnas">Semnas</li>
+              <li data-filter="*" class="filter-active">Semua</li>
+              <li data-filter=".filter-itv">IT&#8288;-&#8288;Venture</li>
+              <li data-filter=".filter-semnas">Seminar Nasional</li>
               <li data-filter=".filter-2018">2018</li>
               <li data-filter=".filter-2017">2017</li>
               <li data-filter=".filter-2016">2016</li>
@@ -287,9 +227,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/semnas/IMG_0004.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>SEMNAS</p>
+                <p>Seminar Nasional 2018</p>
                 <div>
-                  <a href="img/images/semnas/IMG_0004.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/semnas/IMG_0004.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -299,9 +239,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/itv/itv1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>ITV</p>
+                <p>IT&#8288;-&#8288;Venture XI</p>
                 <div>
-                  <a href="img/images/itv/itv1.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/itv/itv1.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -311,9 +251,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/itv/itv2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>ITV</p>
+                <p>IT&#8288;-&#8288;Venture XI</p>
                 <div>
-                  <a href="img/images/itv/itv2.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/itv/itv2.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -323,9 +263,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/itv/itv3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>ITV</p>
+                <p>IT&#8288;-&#8288;Venture XI</p>
                 <div>
-                  <a href="img/images/itv/itv3.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/itv/itv3.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -335,9 +275,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/itv/itv4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>ITV</p>
+                <p>IT&#8288;-&#8288;Venture XI</p>
                 <div>
-                  <a href="img/images/itv/itv4.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/itv/itv4.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -347,9 +287,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/itv/itv5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>ITV</p>
+                <p>IT&#8288;-&#8288;Venture XI</p>
                 <div>
-                  <a href="img/images/itv/itv5.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/itv/itv5.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -359,9 +299,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/semnas/semnas1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>SEMNAS</p>
+                <p>Seminar Nasional 2018</p>
                 <div>
-                  <a href="img/images/semnas/semnas1.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/semnas/semnas1.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -371,9 +311,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/semnas/semnas2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>SEMNAS</p>
+                <p>Seminar Nasional 2018</p>
                 <div>
-                  <a href="img/images/semnas/semnas2.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/semnas/semnas2.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -383,9 +323,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/semnas/semnas3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>SEMNAS</p>
+                <p>Seminar Nasional 2018</p>
                 <div>
-                  <a href="img/images/semnas/semnas3.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/semnas/semnas3.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -395,9 +335,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/semnas/semnas4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>SEMNAS</p>
+                <p>Seminar Nasional 2018</p>
                 <div>
-                  <a href="img/images/semnas/semnas4.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/semnas/semnas4.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -407,9 +347,9 @@
             <div class="portfolio-wrap">
               <img src="img/images/semnas/semnas5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <p>SEMNAS</p>
+                <p>Seminar Nasional 2018</p>
                 <div>
-                  <a href="img/images/semnas/semnas5.jpg" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/images/semnas/semnas5.jpg" data-lightbox="portfolio" class="link-preview" title="Lihat gambar asli"><i class="ion ion-eye"></i></a>
                 </div>
               </div>
             </div>
@@ -429,7 +369,7 @@
         <div class="container">
   
           <div class="section-header">
-            <h3>Sponsorship</h3>
+            <h3>Sponsor</h3>
           </div>
   
           <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -462,22 +402,24 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Peta Situs</h4>
             <ul>
-              <li><a href="#">Beranda</a></li>
-              <li><a href="#">IT&#8288;-&#8288;Venture</a></li>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="itv.html">IT&#8288;-&#8288;Venture</a></li>
               <li><a href="#">Seminar Nasional</a></li>
               <li><a href="#">IT&#8288;-&#8288;Workshop</a></li>
-              <li><a href="#">Pendaftaran</a></li>
+              <li><a href="https://pingfest.id">Pendaftaran</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Hubungi Kami</h4>
             <p>
-              Jebres,<br>
+              Gedung A FMIPA UNS,<br>
+        Kecamatan Jebres,<br>
               Kota Surakarta,<br>
               Jawa Tengah 57126 <br>
-              <strong>Telepon:</strong> <a href="tel:+6281233814343">+6281233814343 (Ical)</a><br>
-              <strong>Surel:</strong> <a href="mailto:pingfest2019@gmail.com">pingfest2019@gmail.com</a><br>
+              <strong>Telepon</strong>: <a href="tel:+6281233814343">+62 812-3381-4343</a> (Ical)<br>
+        <span style="visibility:hidden;"><strong>Telepon</strong>: </span><a href="tel:+6282393667266">+62 823-9366-7266</a> (Ela)<br>
+              <strong>Surel</strong>: <a href="mailto:pingfest2019@gmail.com">pingfest2019@gmail.com</a><br>
             </p>
 
             <div class="social-links">
@@ -489,7 +431,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Letak</h4>
+            <h4>Peta</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1468677776584!2d110.85649221478525!3d-7.55896077674089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1703aead1c11%3A0x8952c6ad35b2ccba!2sGedung+A+FMIPA+UNS!5e0!3m2!1sen!2sid!4v1565924850131!5m2!1sen!2sid" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
@@ -506,22 +448,6 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- <div id="preloader"></div> -->
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
 
 </body>
 </html>

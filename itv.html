@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="utf-8">
-  <title>P!NGFEST</title>
+  <title>IT-Venture XII &mdash; P!NGFEST 2019</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -28,22 +28,36 @@
   <link href="css/style.css" rel="stylesheet">
 
   <style>
-    .video-container {
+    .itv-logo-main {
       position: relative;
-      padding-bottom: 22.25%;
-      padding-top: 30px;
-      height: 0;
+      text-align: center;
       overflow: hidden;
     }
-    
-    .video-container iframe, .video-container object, .video-container embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+
+    .itv-logo-main img {
+      max-width: 100%;
+    }
+
+    #itv-jadwal h4 {
+      text-align: center;
     }
   </style>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js" async></script>
 
 </head>
 
@@ -57,16 +71,15 @@
 
       <div class="logo float-left">
 
-        <!-- <h1 class="text-light"><a href="#header"><span>Pingfest</span></a></h1> -->
-        <a href="#intro" class="scrollto"><img src="img/images/P!NG.png" alt="" class="img-fluid"></a>
+        <a href="./" aria-label="Beranda"><img src="img/images/P!NG.png" alt="Beranda" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class=""><a href="/index.html">Beranda</a></li>
-          <li class="active"><a href="/itv.html">IT&#8288;-&#8288;Venture</a></li>
+          <li><a href="index.html">Beranda</a></li>
+          <li class="active"><a href="itv.html" aria-label="IT Venture">IT&#8288;-&#8288;Venture</a></li>
           <li><a href="#">Seminar Nasional</a></li>
-          <li><a href="#">IT&#8288;-&#8288;Workshop</a></li>
+          <li><a href="#" aria-label="IT Workshop">IT&#8288;-&#8288;Workshop</a></li>
 
           <!-- KALO MAU DIBUAT DROPDOWN -->
 
@@ -98,22 +111,21 @@
     Intro Section
   ============================-->
   <section id="intro" class="clearfix">
-        <div class="container">
+    <div class="container">
 
-            <div class="intro-img">
-                <img src="img/images/it-v only.png" alt="">
-            </div>
-        
-            <div class="intro-info">
-                <h2>Bersiap<br>untuk<br>IT-VENTURE 2019!</h2>
-                <div>
-                <!--<a href="https://drive.google.com/open?id=1Xm7WCoToUP6rCQ_lrh0W2S74I_iKj-av" class="btn-get-started scrollto">Buku Panduan</a>-->
-                <a href="https://pingfest.id" class="btn-get-started scrollto">Buku Panduan ITV</a>
-                <a href="https://pingfest.id" class="btn-services scrollto">Daftar Sekarang &#8594;</a>
-                </div>
-            </div>
-    
+      <div class="intro-img itv-logo-main">
+        <img src="img/images/it-v only.png" alt="Logo IT-Venture XII">
+      </div>
+
+      <div class="intro-info">
+        <h2>Uji kemampuan<br>dengan ikut<br>IT&#8288;-&#8288;Venture XII!</h2>
+        <div>
+          <a href="https://drive.google.com/open?id=1Xm7WCoToUP6rCQ_lrh0W2S74I_iKj-av" class="btn-get-started">Buku Panduan</a>
+          <a href="https://pingfest.id" class="btn-services">Daftar Sekarang</a>
         </div>
+      </div>
+
+    </div>
   </section><!-- #intro -->
 
   <main id="main">
@@ -122,23 +134,24 @@
             <div class="">
         
                 <header class="section-header">
-                <div class="row justify-content-center">
+                <h3>Jadwal IT&#8288;-&#8288;Venture</h3>
+                <div class="row justify-content-center" style="margin:0;">
                     <div class="col-lg-8">
         
-                    <div class="owl-carousel testimonials-carousel wow fadeInUp">
+                    <div id="itv-jadwal" class="owl-carousel testimonials-carousel wow fadeInUp">
             
                         <div class="">
-                        <h3>Seleksi Kelompok Finalis (Babak Penyisihan)</h3>
-                        <p>Minggu, 03 November 2019 (09.00 - 12.00 WIB)</p>
+                        <h4>Seleksi Kelompok Finalis (Babak Penyisihan)</h4>
+                        <p>Minggu, 03 November 2019 (09.00&ndash;12.00 WIB)</p>
                         </div>
         
                         <div class="">
-                        <h3>Pengumuman Kelompok Finalis</h3>
+                        <h4>Pengumuman Kelompok Finalis</h4>
                         <p>Senin, 04 November 2019 (01.00 WIB)</p>
                         </div>
         
                         <div class="">
-                        <h3>Pertarungan Babak Final</h3>
+                        <h4>Pertarungan Babak Final</h4>
                         <p>Minggu, 17 November 2019</p>
                         </div>
         
@@ -173,7 +186,7 @@
             </div>
             <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
               <div class="box">
-				<div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
+                <div class="icon"><i class="ion-ios-world-outline" data-wow-delay="0.05s" style="color: #d6ff22;"></i></div>
                 <h4 class="title">Pemrograman Web</h4>
                 <p class="description"></p>
               </div>
@@ -186,7 +199,7 @@
                 <p class="description"></p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.15s" data-wow-duration="1.4s">
               <div class="box">
                 <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
                 <h4 class="title">Jaringan Komputer</h4>
@@ -201,7 +214,7 @@
                 <p class="description"></p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.25s" data-wow-duration="1.4s">
               <div class="box">
                 <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
                 <h4 class="title">Perangkat Keras</h4>
@@ -236,23 +249,24 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Peta Situs</h4>
             <ul>
-              <!-- <li class="active"><a href="/index.html">Beranda</a></li> -->
-                <li class=""><a href="pingfest2k19/index.html">Beranda</a></li>
-                <!-- <li><a href="/itv.html">IT&#8288;-&#8288;Venture</a></li> -->
-                <li class="active"><a href="pingfest2k19/itv.html">IT&#8288;-&#8288;Venture</a></li>
-                <li><a href="#">Seminar Nasional</a></li>
-                <li><a href="#">IT&#8288;-&#8288;Workshop</a></li>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="itv.html">IT&#8288;-&#8288;Venture</a></li>
+              <li><a href="#">Seminar Nasional</a></li>
+              <li><a href="#">IT&#8288;-&#8288;Workshop</a></li>
+              <li><a href="https://pingfest.id">Pendaftaran</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Hubungi Kami</h4>
             <p>
-              Jebres,<br>
+              Gedung A FMIPA UNS,<br>
+              Kecamatan Jebres,<br>
               Kota Surakarta,<br>
               Jawa Tengah 57126 <br>
-              <strong>Telepon:</strong> <a href="tel:+6282237666676">+6282237666676</a><br>
-              <strong>Surel:</strong> <a href="mailto:pingfest2019@gmail.com">pingfest2019@gmail.com</a><br>
+              <strong>Telepon</strong>: <a href="tel:+6281233814343">+62 812-3381-4343</a> (Ical)<br>
+              <span style="visibility:hidden;"><strong>Telepon</strong>: </span><a href="tel:+6282393667266">+62 823-9366-7266</a> (Ela)<br>
+              <strong>Surel</strong>: <a href="mailto:pingfest2019@gmail.com">pingfest2019@gmail.com</a><br>
             </p>
 
             <div class="social-links">
@@ -264,7 +278,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Letak</h4>
+            <h4>Peta</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1468677776584!2d110.85649221478525!3d-7.55896077674089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1703aead1c11%3A0x8952c6ad35b2ccba!2sGedung+A+FMIPA+UNS!5e0!3m2!1sen!2sid!4v1565924850131!5m2!1sen!2sid" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
@@ -281,22 +295,6 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- <div id="preloader"></div> -->
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
 
 </body>
 </html>
