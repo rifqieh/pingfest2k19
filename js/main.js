@@ -1,4 +1,4 @@
-window.onload = function () {(function ($) {
+$(window).on('load', function () {(function ($) {
   "use strict";
 
   // Preloader (if the #preloader div exists)
@@ -99,16 +99,13 @@ window.onload = function () {(function ($) {
   });
 
   // Porfolio isotope and filter
-  $(window).on('load', function () {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item'
-    });
-    $('#portfolio-flters li').on( 'click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
-  
-      portfolioIsotope.isotope({ filter: $(this).data('filter') });
-    });
+  var portfolioIsotope = $('.portfolio-container').isotope({
+    itemSelector: '.portfolio-item'
+  });
+  $('#portfolio-flters li').on( 'click', function() {
+    $("#portfolio-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+    portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
 
   // Testimonials carousel (uses the Owl Carousel library)
@@ -119,5 +116,5 @@ window.onload = function () {(function ($) {
     items: 1
   });
 
-})(jQuery);};
+})(jQuery);});
 
