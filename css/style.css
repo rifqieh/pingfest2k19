@@ -190,9 +190,16 @@ h6 {
 
 #intro .intro-info h2 {
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
+}
+
+#intro .intro-info h3 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 #intro .intro-info h2 span {
@@ -1281,6 +1288,19 @@ h6 {
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+}
+
+#footer .contact-with-links a {
+  color: white;
+  text-decoration: underline;
+}
+
+#footer .contact-with-links a:visited {
+  color: white;
+}
+
+#footer .contact-with-links a:active {
+  color: yellow;
 }
 
 #footer .footer-top .footer-newsletter {
