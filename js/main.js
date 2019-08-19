@@ -1,4 +1,4 @@
-$(window).on('load', function () {(function ($) {
+jQuery(window).on('load', function () {(function ($) {
   "use strict";
 
   // Preloader (if the #preloader div exists)
