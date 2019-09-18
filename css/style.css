@@ -701,6 +701,19 @@ h6 {
   border-bottom: #fff solid 2px;
 }
 
+#why-us .card .card-body a {
+  color: white;
+  text-decoration: underline;
+}
+
+#why-us .card .card-body a:visited {
+  color: white;
+}
+
+#why-us .card .card-body a:active {
+  color: yellow;
+}
+
 #why-us .counters {
   padding-top: 40px;
 }
