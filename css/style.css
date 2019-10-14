@@ -786,6 +786,10 @@ h6 {
   margin: 0;
 }
 
+#portfolio .portfolio-item .portfolio-wrap img {
+  width: 100%;
+}
+
 #portfolio .portfolio-item .portfolio-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
